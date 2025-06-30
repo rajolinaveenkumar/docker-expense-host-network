@@ -4,4 +4,4 @@ WORKDIR /app
 COPY scripts/* .
 RUN npm install
 ENV DB_HOST="localhost"
-CMD ["node", "index.js"]
+CMD ["node", "index.js"],
